@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-03-08T15:34:11.723606",
+  "generated_at": "2026-03-09T13:00:21.229736",
   "distance_threshold_m": 500,
   "jrc_dataset": "JRC/GSW1_4/GlobalSurfaceWater",
   "water_occurrence_min_pct": 50,
   "layers": {
     "surface_water": {
       "label": "Surface Water Bodies",
-      "tile_url": "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/f97078f7a2e52aed4ba905c4534150a6-636d3d3f50753675c477015ddf324e86/tiles/{z}/{x}/{y}",
+      "tile_url": "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/f97078f7a2e52aed4ba905c4534150a6-f74b6a943ba8548af320f0fb030e70cb/tiles/{z}/{x}/{y}",
       "description": "JRC water bodies detected \u226550% of the time (1984\u2013present)",
       "color": "#1565c0"
     },
     "water_occurrence": {
       "label": "Water Occurrence Frequency",
-      "tile_url": "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/336e6484dfbfb6c5f3ca8d4deb0a65c4-81367790969480ccc001c08048795e4b/tiles/{z}/{x}/{y}",
+      "tile_url": "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/336e6484dfbfb6c5f3ca8d4deb0a65c4-e323957e25377639f01e6baad9bb91c2/tiles/{z}/{x}/{y}",
       "description": "How often each pixel is classified as water. Darker = more permanent.",
       "color": "#1e88e5"
     },
     "water_proximity": {
       "label": "Proximity to Water (\u2264500m)",
-      "tile_url": "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/ea33a8d88be415878a15011ee6254fc1-940aa138eb76a56519b73a2475b1d843/tiles/{z}/{x}/{y}",
+      "tile_url": "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/ea33a8d88be415878a15011ee6254fc1-096a61748b69804e8e8850bfc2903465/tiles/{z}/{x}/{y}",
       "description": "Green = within 500m of a water body, Red = farther away.",
       "color": "#66bb6a"
     }
