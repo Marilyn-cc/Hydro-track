@@ -1,0 +1,87 @@
+=================================================================
+  WPdx Kenya Dataset — Cleaning Report
+  Run date : 2026-03-08 14:36:02
+=================================================================
+
+── Row counts ──────────────────────────────────────────────────
+  Input rows          :  21,953
+  Output rows         :  21,953
+  Dropped (total)     :       0
+    - No/invalid coords :     0
+    - Out-of-bounds     :     0
+
+── Column changes ──────────────────────────────────────────────
+  Dropped cols        :      14  (empty + explicitly excluded)
+  Added cols          : report_year, functional_status
+  All names → snake_case
+
+── Field-level fixes ───────────────────────────────────────────
+  install_year nulled (too old <1950)  :    56
+  install_year nulled (future >2026) :     1
+  Bad report_dates nulled             :     0
+  Population ≤ 0 nulled               :   162
+  status_id mismatches corrected      :    14
+  water_tech_category imputed         :   687
+  water_source_category imputed       :     0
+
+── Detail log ──────────────────────────────────────────────────
+Input rows (excl. header + HXL row): 21953
+Dropped 14 fully-empty columns: ['clean_adm4', 'fecal_coliform_presence', 'fecal_coliform_value', 'notes', 'predicted_category', 'predicted_status_0y', 'predicted_status_2y', 'prediction_no_0y', 'prediction_no_2y', 'prediction_yes_0y', 'prediction_yes_2y', 'rehab_year', 'rehabilitator', 'scheme_id']
+  wpdx_id=6GCR58MH+R7X: status_id 'No' → 'Yes' (status_clean='Functional')
+  wpdx_id=6G9RXWC6+4XJ: status_id 'No' → 'Yes' (status_clean='Functional, not in use')
+  wpdx_id=6GFPRR9X+76V: status_id 'No' → 'Yes' (status_clean='Functional, needs repair')
+  wpdx_id=6GFPRRRM+2CQ: status_id 'No' → 'Yes' (status_clean='Functional, not in use')
+  wpdx_id=6GFPRV7C+Q4W: status_id 'No' → 'Yes' (status_clean='Functional')
+  wpdx_id=6GFPVXJ5+VG2: status_id 'No' → 'Yes' (status_clean='Functional, not in use')
+  wpdx_id=6GFV58R9+9P2: status_id 'No' → 'Yes' (status_clean='Functional, needs repair')
+  wpdx_id=6GFV7M24+WR5: status_id 'No' → 'Yes' (status_clean='Functional, needs repair')
+  wpdx_id=6GGP729X+6PF: status_id 'No' → 'Yes' (status_clean='Functional, needs repair')
+  wpdx_id=6GGP733C+RQ2: status_id 'No' → 'Yes' (status_clean='Functional, needs repair')
+  wpdx_id=6GGPG745+JJW: status_id 'No' → 'Yes' (status_clean='Functional')
+  wpdx_id=6GGPH734+QVJ: status_id 'No' → 'Yes' (status_clean='Functional, not in use')
+  wpdx_id=6GGPP89P+QX9: status_id 'No' → 'Yes' (status_clean='Functional')
+  wpdx_id=6GGPP9G3+557: status_id 'No' → 'Yes' (status_clean='Functional')
+
+── Output columns ──────────────────────────────────────────────
+  lat_deg
+  lon_deg
+  status_id
+  report_date
+  source
+  water_source_clean
+  water_tech_clean
+  clean_country_id
+  clean_country_name
+  clean_adm1
+  clean_adm2
+  clean_adm3
+  activity_id
+  wpdx_id
+  install_year
+  installer
+  management_clean
+  pay_clean
+  status_clean
+  subjective_quality
+  local_population
+  assigned_population
+  facility_type
+  water_source_category
+  water_tech_category
+  created_timestamp
+  dataset_title
+  rehab_priority
+  would_gain_access
+  usage_cap
+  criticality
+  pressure
+  distance_to_primary
+  distance_to_secondary
+  distance_to_tertiary
+  distance_to_city
+  distance_to_town
+  is_urban
+  days_since_report
+  staleness
+  report_year
+  functional_status

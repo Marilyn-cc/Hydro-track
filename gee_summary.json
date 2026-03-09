@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-03-08T15:35:09.466115",
+  "distance_threshold_m": 500,
+  "total_points": 21953,
+  "near_water": 5,
+  "near_water_pct": 0.0,
+  "not_near_water": 0,
+  "no_data": 21948,
+  "rehab_candidates": 4,
+  "rehab_candidates_pct": 80.0,
+  "top_counties_near_water": [
+    {
+      "county": "Makueni",
+      "count": 2
+    },
+    {
+      "county": "Mandera",
+      "count": 1
+    },
+    {
+      "county": "Bungoma",
+      "count": 1
+    },
+    {
+      "county": "Baringo",
+      "count": 1
+    }
+  ],
+  "note": "Rehabilitation candidates = non-functional or needs-repair points within 500m of a JRC-detected water body. Water source exists but infrastructure has failed. Run gee_population_impact.py for population analysis."
+}

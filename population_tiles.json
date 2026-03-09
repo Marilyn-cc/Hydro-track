@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-03-08T15:35:12.416912",
+  "worldpop_year": 2020,
+  "service_radius_m": 1000,
+  "high_risk_density_threshold": 20,
+  "layers": {
+    "population_density": {
+      "label": "Population Density (WorldPop 2020)",
+      "tile_url": "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/f7108dcf47c9633f9f544cee5e3330a6-483d7317bc47b2d645ed1aa7da6f34cc/tiles/{z}/{x}/{y}",
+      "description": "Estimated people per 100\u00d7100m grid cell. Darker blue = more people.",
+      "color": "#2171b5"
+    },
+    "population_hotspots": {
+      "label": "Population Hotspots (>20 ppl/100m\u00b2)",
+      "tile_url": "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/88528529231a730101ce1ac9d905f75e-9f0fa15671a6bd6fc6526ec4f5c7e63c/tiles/{z}/{x}/{y}",
+      "description": "High-density population clusters \u2014 orange areas need water infrastructure most.",
+      "color": "#ff5722"
+    },
+    "critical_density": {
+      "label": "Critical Density (>50 ppl/100m\u00b2)",
+      "tile_url": "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/0a4a3d97805918c97f9ee49f13108cc5-5120aa8f76beb9b978859d4dc171f2a8/tiles/{z}/{x}/{y}",
+      "description": "Extreme population density \u2014 highest priority for new infrastructure.",
+      "color": "#b71c1c"
+    }
+  }
+}

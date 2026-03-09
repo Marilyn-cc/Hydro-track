@@ -1,0 +1,438 @@
+{
+  "generated_at": "2026-03-08T15:36:41.509594",
+  "worldpop_year": 2020,
+  "service_radius_m": 1000,
+  "high_risk_threshold": 20,
+  "total_points": 21953,
+  "broken_points": 15229,
+  "high_risk_points": 366,
+  "medium_risk_points": 14827,
+  "served_points": 1964,
+  "total_pop_impacted": 37314069,
+  "critical_communities": 30,
+  "high_risk_communities": 0,
+  "top_counties": [
+    {
+      "county": "Kakamega",
+      "broken": 3543,
+      "pop": 9940096,
+      "high_risk_pts": 75
+    },
+    {
+      "county": "Vihiga",
+      "broken": 1555,
+      "pop": 6061668,
+      "high_risk_pts": 68
+    },
+    {
+      "county": "Busia",
+      "broken": 2503,
+      "pop": 5297844,
+      "high_risk_pts": 38
+    },
+    {
+      "county": "Siaya",
+      "broken": 1656,
+      "pop": 3055441,
+      "high_risk_pts": 9
+    },
+    {
+      "county": "Migori",
+      "broken": 1106,
+      "pop": 2569471,
+      "high_risk_pts": 40
+    },
+    {
+      "county": "Bungoma",
+      "broken": 1097,
+      "pop": 2518739,
+      "high_risk_pts": 9
+    },
+    {
+      "county": "Kisumu",
+      "broken": 481,
+      "pop": 2321495,
+      "high_risk_pts": 43
+    },
+    {
+      "county": "Homa Bay",
+      "broken": 832,
+      "pop": 1398120,
+      "high_risk_pts": 18
+    },
+    {
+      "county": "Nyamira",
+      "broken": 272,
+      "pop": 760202,
+      "high_risk_pts": 7
+    },
+    {
+      "county": "Trans Nzoia",
+      "broken": 325,
+      "pop": 709064,
+      "high_risk_pts": 5
+    }
+  ],
+  "at_risk_communities": [
+    {
+      "adm1": "Kakamega",
+      "adm2": "Butere",
+      "total_points": 1054,
+      "broken_points": 904,
+      "functional_points": 150,
+      "failure_rate_pct": 85.8,
+      "pop_impacted": 2580130,
+      "max_worldpop_density": 21.43,
+      "high_risk_points": 4,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Vihiga",
+      "adm2": "Vihiga",
+      "total_points": 484,
+      "broken_points": 484,
+      "functional_points": 0,
+      "failure_rate_pct": 100.0,
+      "pop_impacted": 1972852,
+      "max_worldpop_density": 84.67,
+      "high_risk_points": 48,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Vihiga",
+      "adm2": "Hamisi",
+      "total_points": 530,
+      "broken_points": 528,
+      "functional_points": 2,
+      "failure_rate_pct": 99.6,
+      "pop_impacted": 1902108,
+      "max_worldpop_density": 34.95,
+      "high_risk_points": 13,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Vihiga",
+      "adm2": "Sabatia",
+      "total_points": 437,
+      "broken_points": 433,
+      "functional_points": 4,
+      "failure_rate_pct": 99.1,
+      "pop_impacted": 1775102,
+      "max_worldpop_density": 25.93,
+      "high_risk_points": 5,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Busia",
+      "adm2": "Butula",
+      "total_points": 1132,
+      "broken_points": 818,
+      "functional_points": 314,
+      "failure_rate_pct": 72.3,
+      "pop_impacted": 1711515,
+      "max_worldpop_density": 61.5,
+      "high_risk_points": 7,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Kakamega",
+      "adm2": "Lurambi",
+      "total_points": 422,
+      "broken_points": 315,
+      "functional_points": 107,
+      "failure_rate_pct": 74.6,
+      "pop_impacted": 1297272,
+      "max_worldpop_density": 52.8,
+      "high_risk_points": 23,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Kakamega",
+      "adm2": "Shinyalu",
+      "total_points": 433,
+      "broken_points": 385,
+      "functional_points": 48,
+      "failure_rate_pct": 88.9,
+      "pop_impacted": 977701,
+      "max_worldpop_density": 27.88,
+      "high_risk_points": 7,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Busia",
+      "adm2": "Matayos",
+      "total_points": 440,
+      "broken_points": 345,
+      "functional_points": 95,
+      "failure_rate_pct": 78.4,
+      "pop_impacted": 937784,
+      "max_worldpop_density": 61.35,
+      "high_risk_points": 12,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Kakamega",
+      "adm2": "Malava",
+      "total_points": 501,
+      "broken_points": 452,
+      "functional_points": 49,
+      "failure_rate_pct": 90.2,
+      "pop_impacted": 918189,
+      "max_worldpop_density": 34.83,
+      "high_risk_points": 2,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Busia",
+      "adm2": "Teso South",
+      "total_points": 546,
+      "broken_points": 387,
+      "functional_points": 159,
+      "failure_rate_pct": 70.9,
+      "pop_impacted": 844468,
+      "max_worldpop_density": 35.12,
+      "high_risk_points": 8,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Kisumu",
+      "adm2": "Kisumu Central",
+      "total_points": 152,
+      "broken_points": 24,
+      "functional_points": 128,
+      "failure_rate_pct": 15.8,
+      "pop_impacted": 812150,
+      "max_worldpop_density": 213.27,
+      "high_risk_points": 22,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Kakamega",
+      "adm2": "Mumias East",
+      "total_points": 322,
+      "broken_points": 245,
+      "functional_points": 77,
+      "failure_rate_pct": 76.1,
+      "pop_impacted": 779672,
+      "max_worldpop_density": 23.59,
+      "high_risk_points": 4,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Migori",
+      "adm2": "Kuria West",
+      "total_points": 307,
+      "broken_points": 261,
+      "functional_points": 46,
+      "failure_rate_pct": 85.0,
+      "pop_impacted": 681040,
+      "max_worldpop_density": 143.45,
+      "high_risk_points": 11,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Siaya",
+      "adm2": "Alego Usonga",
+      "total_points": 504,
+      "broken_points": 373,
+      "functional_points": 131,
+      "failure_rate_pct": 74.0,
+      "pop_impacted": 658883,
+      "max_worldpop_density": 29.55,
+      "high_risk_points": 4,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Siaya",
+      "adm2": "Ugunja",
+      "total_points": 394,
+      "broken_points": 316,
+      "functional_points": 78,
+      "failure_rate_pct": 80.2,
+      "pop_impacted": 610873,
+      "max_worldpop_density": 37.55,
+      "high_risk_points": 4,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Kakamega",
+      "adm2": "Mumias West",
+      "total_points": 251,
+      "broken_points": 120,
+      "functional_points": 131,
+      "failure_rate_pct": 47.8,
+      "pop_impacted": 562571,
+      "max_worldpop_density": 72.44,
+      "high_risk_points": 35,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Busia",
+      "adm2": "Nambale",
+      "total_points": 391,
+      "broken_points": 301,
+      "functional_points": 90,
+      "failure_rate_pct": 77.0,
+      "pop_impacted": 541835,
+      "max_worldpop_density": 40.7,
+      "high_risk_points": 1,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Kisumu",
+      "adm2": "Kisumu East",
+      "total_points": 165,
+      "broken_points": 55,
+      "functional_points": 110,
+      "failure_rate_pct": 33.3,
+      "pop_impacted": 533363,
+      "max_worldpop_density": 196.21,
+      "high_risk_points": 8,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Busia",
+      "adm2": "Teso North",
+      "total_points": 323,
+      "broken_points": 226,
+      "functional_points": 97,
+      "failure_rate_pct": 70.0,
+      "pop_impacted": 504572,
+      "max_worldpop_density": 57.18,
+      "high_risk_points": 6,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Kisumu",
+      "adm2": "Nyando",
+      "total_points": 612,
+      "broken_points": 186,
+      "functional_points": 426,
+      "failure_rate_pct": 30.4,
+      "pop_impacted": 503352,
+      "max_worldpop_density": 65.28,
+      "high_risk_points": 6,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Trans Nzoia",
+      "adm2": "Kiminini",
+      "total_points": 144,
+      "broken_points": 144,
+      "functional_points": 0,
+      "failure_rate_pct": 100.0,
+      "pop_impacted": 420986,
+      "max_worldpop_density": 97.72,
+      "high_risk_points": 4,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Bungoma",
+      "adm2": "Likuyani",
+      "total_points": 237,
+      "broken_points": 163,
+      "functional_points": 74,
+      "failure_rate_pct": 68.8,
+      "pop_impacted": 372782,
+      "max_worldpop_density": 91.94,
+      "high_risk_points": 6,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Migori",
+      "adm2": "Awendo",
+      "total_points": 152,
+      "broken_points": 134,
+      "functional_points": 18,
+      "failure_rate_pct": 88.2,
+      "pop_impacted": 367394,
+      "max_worldpop_density": 71.11,
+      "high_risk_points": 15,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Homa Bay",
+      "adm2": "Kasipul",
+      "total_points": 151,
+      "broken_points": 151,
+      "functional_points": 0,
+      "failure_rate_pct": 100.0,
+      "pop_impacted": 352970,
+      "max_worldpop_density": 34.19,
+      "high_risk_points": 6,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Nyamira",
+      "adm2": "Kitutu Masaba",
+      "total_points": 395,
+      "broken_points": 105,
+      "functional_points": 290,
+      "failure_rate_pct": 26.6,
+      "pop_impacted": 314425,
+      "max_worldpop_density": 24.59,
+      "high_risk_points": 4,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Migori",
+      "adm2": "Rongo",
+      "total_points": 152,
+      "broken_points": 132,
+      "functional_points": 20,
+      "failure_rate_pct": 86.8,
+      "pop_impacted": 304379,
+      "max_worldpop_density": 42.45,
+      "high_risk_points": 3,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Vihiga",
+      "adm2": "Emuhaya",
+      "total_points": 102,
+      "broken_points": 82,
+      "functional_points": 20,
+      "failure_rate_pct": 80.4,
+      "pop_impacted": 292193,
+      "max_worldpop_density": 20.04,
+      "high_risk_points": 1,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Samburu",
+      "adm2": "Samburu West",
+      "total_points": 147,
+      "broken_points": 147,
+      "functional_points": 0,
+      "failure_rate_pct": 100.0,
+      "pop_impacted": 288397,
+      "max_worldpop_density": 40.7,
+      "high_risk_points": 5,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Trans Nzoia",
+      "adm2": "Cherangany",
+      "total_points": 174,
+      "broken_points": 174,
+      "functional_points": 0,
+      "failure_rate_pct": 100.0,
+      "pop_impacted": 276219,
+      "max_worldpop_density": 25.21,
+      "high_risk_points": 1,
+      "risk_level": "\ud83d\udd34 Critical"
+    },
+    {
+      "adm1": "Nyamira",
+      "adm2": "West Mugirango",
+      "total_points": 183,
+      "broken_points": 90,
+      "functional_points": 93,
+      "failure_rate_pct": 49.2,
+      "pop_impacted": 274973,
+      "max_worldpop_density": 23.98,
+      "high_risk_points": 2,
+      "risk_level": "\ud83d\udd34 Critical"
+    }
+  ]
+}
