@@ -1,40 +1,24 @@
 {
-<<<<<<< HEAD:population_tiles.json
   "generated_at": "2026-03-10T21:13:27.720777",
-=======
-  "generated_at": "2026-03-10T17:52:15.816571",
->>>>>>> cc1ff6d (Suface water analysis and depletion):Outputs/population_tiles.json
   "worldpop_year": 2020,
   "service_radius_m": 1000,
   "high_risk_density_threshold": 20,
   "layers": {
     "population_density": {
       "label": "Population Density (WorldPop 2020)",
-<<<<<<< HEAD:population_tiles.json
       "tile_url": "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/f7108dcf47c9633f9f544cee5e3330a6-45252c5c7c7f109335449128443a8c7d/tiles/{z}/{x}/{y}",
-=======
-      "tile_url": "https://earthengine.googleapis.com/v1/projects/hydrotrack-489711/maps/f7108dcf47c9633f9f544cee5e3330a6-1fef6fdd3965f439b5b1ee0b29dcea22/tiles/{z}/{x}/{y}",
->>>>>>> cc1ff6d (Suface water analysis and depletion):Outputs/population_tiles.json
       "description": "Estimated people per 100\u00d7100m grid cell. Darker blue = more people.",
       "color": "#2171b5"
     },
     "population_hotspots": {
       "label": "Population Hotspots (>20 ppl/100m\u00b2)",
-<<<<<<< HEAD:population_tiles.json
       "tile_url": "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/88528529231a730101ce1ac9d905f75e-c93754f052e68822c9473d796964a8fe/tiles/{z}/{x}/{y}",
-=======
-      "tile_url": "https://earthengine.googleapis.com/v1/projects/hydrotrack-489711/maps/88528529231a730101ce1ac9d905f75e-daba7ce592b55b66816ad3a25987fce3/tiles/{z}/{x}/{y}",
->>>>>>> cc1ff6d (Suface water analysis and depletion):Outputs/population_tiles.json
       "description": "High-density population clusters \u2014 orange areas need water infrastructure most.",
       "color": "#ff5722"
     },
     "critical_density": {
       "label": "Critical Density (>50 ppl/100m\u00b2)",
-<<<<<<< HEAD:population_tiles.json
       "tile_url": "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/0a4a3d97805918c97f9ee49f13108cc5-843e1df46111f38d673cbcda9a8538b3/tiles/{z}/{x}/{y}",
-=======
-      "tile_url": "https://earthengine.googleapis.com/v1/projects/hydrotrack-489711/maps/0a4a3d97805918c97f9ee49f13108cc5-b249391ef62725c7d1e5b6d882331897/tiles/{z}/{x}/{y}",
->>>>>>> cc1ff6d (Suface water analysis and depletion):Outputs/population_tiles.json
       "description": "Extreme population density \u2014 highest priority for new infrastructure.",
       "color": "#b71c1c"
     }
