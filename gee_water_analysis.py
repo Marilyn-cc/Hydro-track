@@ -295,7 +295,7 @@ def run(key_file: str, csv_path: str, out_dir: str = "."):
 
     # 1. Authenticate
     if key_file.lower() == "personal":
-        authenticate_personal()
+        ee.Initialize(project="hydrotrack-489711")
     else:
         authenticate(key_file)
 

@@ -2,6 +2,8 @@
  env/
 venv/
 gdgvenv
+hydrotrack_env_backup/
+hydrotrack_env/
 __pycache__/
 *.pyc
 *.pyo

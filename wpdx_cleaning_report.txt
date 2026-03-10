@@ -1,0 +1,31 @@
+=================================================================
+  WPdx Kenya Dataset — Cleaning Report
+  Run date : 2026-03-09 16:09:23
+=================================================================
+
+── Row counts ──────────────────────────────────────────────────
+  Input rows          :  39,218
+  Output rows         :       0
+  Dropped (total)     :  39,218
+    - No/invalid coords :     0
+    - Out-of-bounds     :     0
+
+── Column changes ──────────────────────────────────────────────
+  Dropped cols        :      14  (empty + explicitly excluded)
+  Added cols          : report_year, functional_status
+  All names → snake_case
+
+── Field-level fixes ───────────────────────────────────────────
+  install_year nulled (too old <1950)  :     0
+  install_year nulled (future >2026) :     0
+  Bad report_dates nulled             :     0
+  Population ≤ 0 nulled               :     0
+  status_id mismatches corrected      :     0
+  water_tech_category imputed         :     0
+  water_source_category imputed       :     0
+
+── Detail log ──────────────────────────────────────────────────
+Input rows (excl. header): 39218
+Dropped 14 fully-empty columns: ['clean_adm4', 'fecal_coliform_presence', 'fecal_coliform_value', 'notes', 'predicted_category', 'predicted_status_0y', 'predicted_status_2y', 'prediction_no_0y', 'prediction_no_2y', 'prediction_yes_0y', 'prediction_yes_2y', 'rehab_year', 'rehabilitator', 'scheme_id']
+
+── Output columns ──────────────────────────────────────────────

@@ -381,7 +381,10 @@ def run(key_file: str, csv_path: str, out_dir: str = "."):
     out.mkdir(exist_ok=True)
 
     # 1. Auth
-    authenticate(key_file)
+    if key_file.lower() == 'personal':
+        ee.Initialize(project='hydrotrack-489711')
+    else:
+        authenticate(key_file)
 
     # 2. Tile URLs
     tiles = generate_population_tiles()
