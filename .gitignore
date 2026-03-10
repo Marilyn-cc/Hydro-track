@@ -2,7 +2,10 @@
  env/
 venv/
 gdgvenv
+<<<<<<< HEAD
 hydrotrack_env_backup/
+=======
+>>>>>>> 06fe224 (Stop tracking hydrotrack_env folder)
 hydrotrack_env/
 __pycache__/
 *.pyc
