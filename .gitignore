@@ -12,7 +12,5 @@ __pycache__/
 HydroTrack.db
 #csv files 
 *.csv
-#html files
-*.html
 #keys
 gee-key.json
